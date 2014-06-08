@@ -13,6 +13,10 @@
 		7DB2C6381944D53600FBAAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C62E1944D53600FBAAAF /* ViewController.swift */; };
 		7DB2C6391944D53600FBAAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB2C6301944D53600FBAAAF /* Main.storyboard */; };
 		7DB2C63D1944D8CC00FBAAAF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C63C1944D8CC00FBAAAF /* README.md */; };
+		7DB2C63F1944E36700FBAAAF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C63E1944E36700FBAAAF /* TableViewController.swift */; };
+		7DB2C6411944E47600FBAAAF /* ItunesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C6401944E47600FBAAAF /* ItunesViewController.swift */; };
+		7DB2C6431944EF5000FBAAAF /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C6421944EF5000FBAAAF /* ConnectionManager.swift */; };
+		7DB2C6451944F54200FBAAAF /* ItunesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C6441944F54200FBAAAF /* ItunesStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		7DB2C6301944D53600FBAAAF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7DB2C63A1944D59B00FBAAAF /* Tour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tour.playground; sourceTree = "<group>"; };
 		7DB2C63C1944D8CC00FBAAAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7DB2C63E1944E36700FBAAAF /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7DB2C6401944E47600FBAAAF /* ItunesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesViewController.swift; sourceTree = "<group>"; };
+		7DB2C6421944EF5000FBAAAF /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		7DB2C6441944F54200FBAAAF /* ItunesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				7DB2C62E1944D53600FBAAAF /* ViewController.swift */,
+				7DB2C63E1944E36700FBAAAF /* TableViewController.swift */,
+				7DB2C6401944E47600FBAAAF /* ItunesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +163,7 @@
 		7DB2C6321944D53600FBAAAF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				7DB2C6421944EF5000FBAAAF /* ConnectionManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -160,6 +171,7 @@
 		7DB2C6331944D53600FBAAAF /* Stores */ = {
 			isa = PBXGroup;
 			children = (
+				7DB2C6441944F54200FBAAAF /* ItunesStore.swift */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
@@ -294,8 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DB2C63D1944D8CC00FBAAAF /* README.md in Sources */,
+				7DB2C6431944EF5000FBAAAF /* ConnectionManager.swift in Sources */,
 				7DB2C6381944D53600FBAAAF /* ViewController.swift in Sources */,
+				7DB2C6411944E47600FBAAAF /* ItunesViewController.swift in Sources */,
 				7DB2C6371944D53600FBAAAF /* AppDelegate.swift in Sources */,
+				7DB2C63F1944E36700FBAAAF /* TableViewController.swift in Sources */,
+				7DB2C6451944F54200FBAAAF /* ItunesStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
