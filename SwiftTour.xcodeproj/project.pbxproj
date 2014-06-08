@@ -12,6 +12,7 @@
 		7DB2C6371944D53600FBAAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C62C1944D53600FBAAAF /* AppDelegate.swift */; };
 		7DB2C6381944D53600FBAAAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C62E1944D53600FBAAAF /* ViewController.swift */; };
 		7DB2C6391944D53600FBAAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB2C6301944D53600FBAAAF /* Main.storyboard */; };
+		7DB2C63D1944D8CC00FBAAAF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2C63C1944D8CC00FBAAAF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		7DB2C62E1944D53600FBAAAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DB2C6301944D53600FBAAAF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7DB2C63A1944D59B00FBAAAF /* Tour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tour.playground; sourceTree = "<group>"; };
+		7DB2C63C1944D8CC00FBAAAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				7DB2C6311944D53600FBAAAF /* Helpers */,
 				7DB2C6151944D4A000FBAAAF /* Images.xcassets */,
 				7DB2C6321944D53600FBAAAF /* Managers */,
+				7DB2C63B1944D86800FBAAAF /* Markdowns */,
 				7DB2C6351944D53600FBAAAF /* Models */,
 				7DB2C6361944D53600FBAAAF /* Playgrounds */,
 				7DB2C6331944D53600FBAAAF /* Stores */,
@@ -183,6 +186,14 @@
 			path = Playgrounds;
 			sourceTree = "<group>";
 		};
+		7DB2C63B1944D86800FBAAAF /* Markdowns */ = {
+			isa = PBXGroup;
+			children = (
+				7DB2C63C1944D8CC00FBAAAF /* README.md */,
+			);
+			path = Markdowns;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB2C63D1944D8CC00FBAAAF /* README.md in Sources */,
 				7DB2C6381944D53600FBAAAF /* ViewController.swift in Sources */,
 				7DB2C6371944D53600FBAAAF /* AppDelegate.swift in Sources */,
 			);
@@ -462,6 +474,7 @@
 				7DB2C6271944D4A000FBAAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DB2C6281944D4A000FBAAAF /* Build configuration list for PBXNativeTarget "SwiftTourTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +483,7 @@
 				7DB2C62A1944D4A000FBAAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
