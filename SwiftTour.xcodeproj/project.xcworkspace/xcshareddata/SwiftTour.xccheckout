@@ -10,29 +10,29 @@
 	<string>SwiftTour</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9019E0B8-FC8E-4589-9219-97B95CFA56B2</key>
+		<key>E3F75D2E17186BA0A5B11B595247F23C359F2F60</key>
 		<string>https://github.com/conqueror/SwiftTour.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SwiftTour.xcodeproj/project.xcworkspace</string>
+	<string>SwiftTour.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9019E0B8-FC8E-4589-9219-97B95CFA56B2</key>
+		<key>E3F75D2E17186BA0A5B11B595247F23C359F2F60</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/conqueror/SwiftTour.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9019E0B8-FC8E-4589-9219-97B95CFA56B2</string>
+	<string>E3F75D2E17186BA0A5B11B595247F23C359F2F60</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9019E0B8-FC8E-4589-9219-97B95CFA56B2</string>
+			<string>E3F75D2E17186BA0A5B11B595247F23C359F2F60</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SwiftTour</string>
 		</dict>
