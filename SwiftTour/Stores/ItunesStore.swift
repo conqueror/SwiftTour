@@ -27,9 +27,9 @@ class ItunesStore: NSObject, ConnectionManagerProtocol {
     var urlPath = "https://itunes.apple.com/search?term=" + escapedSearchTerm! + "&media=software"
     
     var url = NSURL(string: urlPath)
-    if let nonNilUrl = url {
-      var request: NSURLRequest = NSURLRequest(URL: url!)
-      println("Search iTunes API at URL \(url)")
+    if let noneNilUrl = url {
+      var request: NSURLRequest = NSURLRequest(URL: noneNilUrl)
+      println("Search iTunes API at URL \(noneNilUrl)")
       connectionManager.delegate = self
       connectionManager.sendRequest(request)
     }
