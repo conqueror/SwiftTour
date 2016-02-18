@@ -20,16 +20,18 @@ class ItunesStore: NSObject, ConnectionManagerProtocol {
   func searchItunesFor(searchTerm: String) {
     
     // The iTunes API wants multiple terms separated by + symbols, so replace spaces with + signs
-    var itunesSearchTerm = searchTerm.stringByReplacingOccurrencesOfString(" ", withString: "+", options: NSStringCompareOptions.CaseInsensitiveSearch, range: nil)
+    let itunesSearchTerm = searchTerm.stringByReplacingOccurrencesOfString(" ", withString: "+", options: NSStringCompareOptions.CaseInsensitiveSearch, range: nil)
     
     // Now escape anything else that isn't URL-friendly
-    var escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
-    var urlPath = "https://itunes.apple.com/search?term=" + escapedSearchTerm! + "&media=software"
+    let escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+
+    let urlPath = "https://itunes.apple.com/search?term=" + escapedSearchTerm! + "&media=software"
     
-    var url = NSURL(string: urlPath)
+    
+    let url = NSURL(string: urlPath)
     if let noneNilUrl = url {
-      var request: NSURLRequest = NSURLRequest(URL: noneNilUrl)
-      println("Search iTunes API at URL \(noneNilUrl)")
+      let request: NSURLRequest = NSURLRequest(URL: noneNilUrl)
+      print("Search iTunes API at URL \(noneNilUrl)")
       connectionManager.delegate = self
       connectionManager.sendRequest(request)
     }
